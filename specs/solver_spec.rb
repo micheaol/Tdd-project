@@ -10,18 +10,18 @@ describe Solver do
 
     describe "#fizzbuzz" do
         it "takes integer, N and returns a string if N is divisible by 3, return fizz" do
-            fizz_instance = Solver.new.fizzbuzz(9)
+            fizz_instance = Solver.new.fizzbuzz(3)
             expect(fizz_instance).to eq("fizz")
         end
 
         it "takes integer, N and returns a string if N is divisible by 5, return buzz" do
-            fizz_instance = Solver.new.fizzbuzz(9)
-            expect(fizz_instance).to eq("fizz")
+            buzz_instance = Solver.new.fizzbuzz(5)
+            expect(buzz_instance).to eq("buzz")
         end
 
         it "takes integer, N and returns a string if N is divisible by 3 and 5, return fizzbuzz" do
-            fizz_instance = Solver.new.fizzbuzz(9)
-            expect(fizz_instance).to eq("fizz")
+            fizz_instance = Solver.new.fizzbuzz(15)
+            expect(fizz_instance).to eq("fizzbuzz")
         end
     end
 end
