@@ -5,7 +5,7 @@
 
 > In this project we perform TDD.
 
-## Milestone 1:
+## Milestone:
 
 ✅ Created a new class called Solver with the following methods: <br>
 
