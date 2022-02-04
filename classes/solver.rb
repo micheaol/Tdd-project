@@ -1,12 +1,14 @@
+# frozen_string_literal: true
+
 class Solver
   def factorial(num)
     total = 1
     if num >= 1
       (1..num).each do |el|
-          total *= el
-        end
-        total
-    elsif num .zero?
+        total *= el
+      end
+      total
+    elsif num.zero?
       1
     else
       'Negative number not allowed'
