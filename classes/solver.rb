@@ -1,12 +1,12 @@
 class Solver
   def factorial(num)
     total = 1
-    if num > 0
-        (1..num).each do |el|
+    if num >= 1
+      (1..num).each do |el|
           total *= el
         end
         total
-    elsif num == 0
+    elsif num .zero?
       1
     else
       'Negative number not allowed'
