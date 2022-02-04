@@ -9,7 +9,6 @@ class Solver
     else
       'Negative number not allowed'
     end
-    
   end
 
   def reverse(str)
