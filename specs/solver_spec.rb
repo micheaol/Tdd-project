@@ -30,5 +30,10 @@ describe Solver do
       fizz_instance = Solver.new.fizzbuzz(15)
       expect(fizz_instance).to eq('fizzbuzz')
     end
+
+    it 'takes integer, N and returns a string for else block' do
+      num_instance = Solver.new.fizzbuzz(7)
+      expect(num_instance).to eq('7')
+    end
   end
 end
