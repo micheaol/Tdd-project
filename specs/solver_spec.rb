@@ -11,7 +11,7 @@ describe Solver do
     describe '#reverse' do
         it "Takes a string, and return the string reversed" do
             reverse_instance = Solver.new.reverse("hello")
-            exoect(reverse_instance).to eq("olleh")
+            expect(reverse_instance).to eq("olleh")
         end
     end
 
