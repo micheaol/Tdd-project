@@ -11,6 +11,11 @@ describe Solver do
       negative_instance = Solver.new.factorial(-2)
       expect(negative_instance).to eq('Negative number not allowed')
     end
+
+    it 'return 1 if 0 is passed' do
+      zero_instance = Solver.new.factorial(0)
+      expect(zero_instance).to eq(1)
+    end
   end
 
   describe '#reverse' do
