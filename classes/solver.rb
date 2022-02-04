@@ -1,10 +1,15 @@
 class Solver
   def factorial(num)
     total = 1
-    (1..num).each do |el|
-      total *= el
+    if num >= 0
+      (1..num).each do |el|
+        total *= el
+      end
+      total
+    else
+      'Negative number not allowed'
     end
-    total
+    
   end
 
   def reverse(str)
